@@ -3,7 +3,13 @@ clear
 while true
 do
 {
-echo $(date +"%T");
+echo   -----------;
+echo   DD:MM:YY--;
+echo   $(date +"%D")
+echo   -----------;
+echo   HH:MM:SS--;
+echo   $(date +"%T")
+echo   -----------;
 sleep 1;
 tput reset;
 }
