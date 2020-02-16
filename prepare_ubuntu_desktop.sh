@@ -5,6 +5,7 @@ sudo apt-get upgrade
 sudo apt-get install ntp
 sudo apt-get install git
 sudo apt-get install vim
+sudo apt-get install net-tools
 echo ------------------------------------
 echo -------- Git configuration ---------
 echo "Please enter your name: "
